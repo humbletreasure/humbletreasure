@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me | Humble Treasure</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <!-- Firebase App (core SDK) -->
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"></script>
+<!-- Firestore -->
+<script
+src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"></script>
+  <script src="portforlio.js" defer></script>
+
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Portfolio of HUMBLE TREASURE</div>
+      <ul class="nav-links">
+        <li><a href="portfolio.html">Home</a></li>
+        <li><a href="aboutportfolio.html">About</a></li>
+        <li><a href="contactportforlio.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h1>Contact Me</h1>
+    <p>Let’s connect! Fill out the form below or reach me through my socials.</p>
+
+    <div class="contact-container">
+      <!-- Contact Form -->
+      <form class="contact-form">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <!-- Direct Contact Info -->
+      <div class="contact-info">
+        <h2>Social Links</h2>
+        <ul class="social-links">
+          <!-- TikTok -->
+          <li><a href="https://www.tiktok.com/@iamhumbletreasure" target="_blank"><i class="fab fa-tiktok"></i> TikTok: iamhumbletreasure</a></li>
+          <li><a href="https://www.tiktok.com/@iamhumbletreasurebk" target="_blank"><i class="fab fa-tiktok"></i> TikTok: iamhumbletreasurebk</a></li>
+          <li><a href="https://www.tiktok.com/@cscuniuyo" target="_blank"><i class="fab fa-tiktok"></i> TikTok: cscuniuyo</a></li>
+
+          <!-- Instagram / Threads -->
+          <li><a href="https://www.instagram.com/iamhumbletreasure" target="_blank"><i class="fab fa-instagram"></i> Instagram: iamhumbletreasure</a></li>
+          <li><a href="https://www.threads.net/@iamhumbletreasure" target="_blank"><i class="fa-brands fa-threads"></i> Threads: iamhumbletreasure</a></li>
+
+          <!-- Likee -->
+          <li><a href="https://likee.video/@humbletreasure" target="_blank"><i class="fa-solid fa-play"></i> Likee: humbletreasure</a></li>
+
+          <!-- X (Twitter) -->
+          <li><a href="https://x.com/humbletreasure_" target="_blank"><i class="fab fa-x-twitter"></i> X (Twitter): humbletreasure_</a></li>
+
+          <!-- YouTube -->
+          <li><a href="https://www.youtube.com/@iamhumbletreasure" target="_blank"><i class="fab fa-youtube"></i> YouTube: iamhumbletreasure</a></li>
+
+          <!-- Facebook -->
+          <li><a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook Page: Humble Treasure</a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook Account: Humble Treasure</a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook Group: Vibes and Cruise</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© Humble Treasure 2025</p>
+  </footer>
+</body>
+</html>

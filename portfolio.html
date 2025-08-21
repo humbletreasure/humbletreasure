@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio of Humble Treasure</title>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js"></script>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Portfolio of HUMBLE TREASURE</h1>
+    <nav>
+      <ul>
+        <li><a href="portfolio.html">Home</a></li>
+        <li><a href="aboutportfolio.html">About Me</a></li>
+        <li><a href="contactportfolio.html">Contact</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="content-section active">
+      <h2>Welcome 👋</h2>
+      <p>
+        I’m <strong>Mathias Nkereuwem Andrew</strong>, popularly known as <strong>Humble Treasure</strong>.<br>
+        Currently a Year 1 student at the <strong>University of Uyo</strong>, Nigeria.
+      </p>
+      <p>
+        <strong>Skills:</strong> HTML, CSS, JavaScript (basic), Python (basic), CorelDRAW (graphics), 
+        CapCut (video editing), strong memory & public speaking.
+      </p>
+
+      <hr>
+
+      <h2>Latest Updates</h2>
+      <div id="updates">
+        <p>No updates yet. Be the first to post!</p>
+      </div>
+      <!-- ===== Community Posts Section ===== -->
+      <section id="posts">
+        <h2>Community Posts</h2>
+        <!-- New Post form -->
+        <form id="postForm">
+          <textarea id="postContent" placeholder="What's on your mind?" required></textarea>
+          <button type="submit">Post</button>
+          </form>
+
+  <!-- Where posts will display -->
+  <div id="postList">
+    <!-- Example of how a post will look -->
+    <div class="post">
+      <p>This is a sample post text...</p>
+      <small>Likes: 0</small>
+      <button>❤️ Like</button>
+      <div>
+        <input type="text" placeholder="Write a comment">
+        <button>💬 Comment</button>
+      </div>
+      <div class="comments">
+        <p>💭 Example comment</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ===== End Community Posts Section ===== -->
+    </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© Humble Treasure 2025</p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
